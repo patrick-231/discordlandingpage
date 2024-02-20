@@ -4,7 +4,91 @@
     box-sizing: border-box;
 }
 
+
 /* header */
+
+header {
+    background: #404EED;
+    
+
+}
+header {
+    
+}
+
+.para {
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: fit-content;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+}
+
+.para p{
+    font-size: 2em;
+    color: white;
+}
+
+header .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.button2 .first {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.button2 .first:hover {
+    color:#5865F2;
+    transition: all .2s;
+}
+
+.first img {
+    
+}
+
+.button2 .second {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.backimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backimg-left {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+.backimg-right {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
 header nav
 {
     display:flex;
@@ -56,5 +140,6 @@ header nav .button button:hover{
     color:#5865F2;
     transition: all .2s;
 }
+
 /* main */
 /* footer */
