@@ -4,6 +4,141 @@
     box-sizing: border-box;
 }
 
+/* nav */
+header nav
+{
+    display:flex;
+    justify-content:center;
+    gap:7rem;
+    padding-top: 2rem;
+    /* background:#404EED; */
+    width:100vw;
+    height:auto;
+}
+header nav .icon img
+{
+
+}
+header nav .ul ul
+{
+    display:flex;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all .2s;
+    padding-top: 0.7rem;
+    font-family: Ggsans,sans-serif;
+}
+header nav .ul ul a
+{ 
+    text-decoration:none;
+    color: white;
+}
+header nav .ul ul a:hover
+{
+text-decoration:underline;
+}
+
+header nav .button button
+{
+background-color: white;
+color: black;
+border: none;
+border-radius:1.5em;
+padding: 0.8rem;
+font-weight: 600;
+transition: all .2s;
+font-family: Ggsans,sans-serif;
+}
+header nav .button button:hover{
+    color:#5865F2;
+    transition: all .2s;
+}
+
 /* header */
+header {
+    background: #404EED;
+    
+
+}
+header {
+    
+}
+
+.para {
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: fit-content;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+}
+
+.para p{
+    font-size: 2em;
+    color: white;
+}
+
+header .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.button2 .first {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.button2 .first:hover {
+    color:#5865F2;
+    transition: all .2s;
+}
+
+.first img {
+    
+}
+
+.button2 .second {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.backimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backimg-left {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+.backimg-right {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
 /* main */
 /* footer */
