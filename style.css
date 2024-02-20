@@ -127,3 +127,150 @@
     background-color: RoyalBlue;
 }
 /* footer */
+footer {
+    width: 100%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+footer > *{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-container-top{
+    justify-content: space-around;
+}
+footer .footer-container-middle{
+    justify-content: space-between;
+    
+}
+footer .footer-container-end{
+flex-flow: column;
+    justify-content: center;
+}
+
+footer h6 {
+    font-size: 1rem;
+}
+
+footer .left {
+
+/*border-top: 1px solid white ;
+border-left: 1px solid white;*/
+
+margin: 5rem auto;
+width: 500px;
+height: 200px;
+display: flex;
+flex-direction: column;
+/*justify-content: left;
+font-size: smaller;*/
+
+}
+
+footer .center-left {
+
+    /*border-top: 1px solid white ;
+    border-left: 1px solid white;*/
+    
+    margin: 5rem auto;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: left;
+    font-size: smaller;*/
+}
+
+footer .center-right {
+
+    /*border-top: 1px solid white ;
+    border-left: 1px solid white;*/
+    
+    margin: 5rem auto;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: left;
+    font-size: smaller;*/
+}
+
+footer .right {
+
+    /*border-top: 1px solid white ;
+    border-left: 1px solid white;*/
+    
+    margin: 5rem auto;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: left;
+    font-size: smaller;*/
+}
+
+footer .author {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+footer ul {
+color: rgb(243, 241, 241); /* add a contrasting color to make the links visible */
+  text-decoration: none; /* remove underlines */
+  padding: 0.5em; /* add padding to create space around the links */
+  font-size: smaller;
+}
+
+footer li {
+    margin: 1rem 2rem 1rem 2rem; 
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    align-items: left;
+    padding: 0.2rem;
+
+}
+
+footer a {
+   color: white;
+   flex-direction: column;
+   text-decoration: none;
+   padding: o.5em;
+}
+
+footer .DownLine {
+
+    flex-wrap: nowrap, wrap, wrap-reverse;
+}
+
+footer .footer-container-end hr{
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    color: blue;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(108, 108, 164);
+}
