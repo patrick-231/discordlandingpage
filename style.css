@@ -4,8 +4,264 @@
     box-sizing: border-box;
 }
 
+
 /* header */
+
+header {
+    background: #404EED;
+    
+
+}
+header {
+    
+}
+
+.para {
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: fit-content;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+}
+
+.para p{
+    font-size: 2em;
+    color: white;
+}
+
+header .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.button2 .first {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.button2 .first:hover {
+    color:#5865F2;
+    transition: all .2s;
+}
+
+.first img {
+    
+}
+
+.button2 .second {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.backimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backimg-left {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+.backimg-right {
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+header nav
+{
+    display:flex;
+    justify-content:center;
+    gap:7rem;
+    padding-top: 2rem;
+    background:#404EED;
+    width:100vw;
+    height:auto;
+}
+header nav .icon img
+{
+
+}
+header nav .ul ul
+{
+    display:flex;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    padding-top: 0.7rem;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all .2s;
+    font-family: Ggsans,sans-serif;
+}
+header nav .ul ul a
+{ 
+    text-decoration:none;
+    color: white;
+}
+header nav .ul ul a:hover
+{ 
+    text-decoration:underline;
+}
+
+header nav .button button
+{
+background-color: white;
+color: black;
+border: none;
+border-radius:1.5em;
+padding: 0.8rem;
+font-weight: 600;
+transition: all .2s;
+font-family: Ggsans,sans-serif;
+}
+header nav .button button:hover{
+    color:#5865F2;
+    transition: all .2s;
+}
+
 /* main */
+.container.hero{
+    background: #ffffff;
+    padding: 120px 0px 130px;
+}
+.container.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+.container.image h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+}
+
+.container.image p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+   
+}
+.second.hero{
+    background: #f6f6f6;
+    padding: 120px 0px;
+    
+
+}
+
+.second.section.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+
+.second.section h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+    
+
+}
+.second.section p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+    
+}
+.third.section.hero{
+    background: #ffffff;
+    padding: 120px 0px 130px;
+}
+
+.third.section.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+.third.section h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+}
+.third.section p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+}
+.fourth.hero{
+    background: #f6f6f6;
+    padding: 120px 0px 130px;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+
+}
+.fourth.hero h3{
+    color: #23272A;
+    font: 40px "Abcgintonord 800", sans-serif;
+    margin: 0px 0px 24px;
+
+}
+.fourth.hero p{
+    color: #23272A;
+    font: 20px Ggsans, sans-serif;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fourth.image{
+    background: #f6f6f6;
+    padding: 0px 0px 130px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.star{
+    background: #f6f6f6;
+    justify-content: center;
+    text-align: center;
+    margin: -77px -36px 0px 0px;
+}
+
+.star h3{
+    padding: 15px;
+}
+
+
+.btn{
+    font: 20px Ggsans, sans-serif;
+    border-radius: 60px;
+    color: #ffffff;
+    background: #5865f2;
+    padding: 14px 32px 14px 66px;
+    
+    margin-bottom: 5rem;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
 /* footer */
 footer {
     width: 100%;
