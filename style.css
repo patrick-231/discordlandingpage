@@ -6,6 +6,126 @@
 
 /* header */
 /* main */
+.container.hero{
+    background: #ffffff;
+    padding: 120px 0px 130px;
+}
+.container.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+.container.image h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+}
+
+.container.image p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+   
+}
+.second.hero{
+    background: #f6f6f6;
+    padding: 120px 0px;
+    
+
+}
+
+.second.section.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+
+.second.section h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+    
+
+}
+.second.section p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+    
+}
+.third.section.hero{
+    background: #ffffff;
+    padding: 120px 0px 130px;
+}
+
+.third.section.image{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+.third.section h3{
+    color: #23272A;
+    font: 48px Ggsans, sans-serif;
+}
+.third.section p{
+    color: #23272A;
+    font: 20px Ggsans, san-serif;
+    margin: 24px 0px 0px;
+}
+.fourth.hero{
+    background: #f6f6f6;
+    padding: 120px 0px 130px;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+
+}
+.fourth.hero h3{
+    color: #23272A;
+    font: 40px "Abcgintonord 800", sans-serif;
+    margin: 0px 0px 24px;
+
+}
+.fourth.hero p{
+    color: #23272A;
+    font: 20px Ggsans, sans-serif;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fourth.image{
+    background: #f6f6f6;
+    padding: 0px 0px 130px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.star{
+    background: #f6f6f6;
+    justify-content: center;
+    text-align: center;
+    margin: -77px -36px 0px 0px;
+}
+
+.star h3{
+    padding: 15px;
+}
+
+
+.btn{
+    font: 20px Ggsans, sans-serif;
+    border-radius: 60px;
+    color: #ffffff;
+    background: #5865f2;
+    padding: 14px 32px 14px 66px;
+    
+    margin-bottom: 5rem;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
 /* footer */
 footer {
     width: 100%;
