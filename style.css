@@ -12,9 +12,9 @@ header {
     
 
 }
-header {
+/* header {
     
-}
+} */
 
 .para {
     margin-top: 4rem;
@@ -62,10 +62,10 @@ header .button2 {
     transition: all .2s;
 }
 
-.first img {
+/* .first img {
     
 }
-
+ */
 .button2 .second {
     padding: 1rem;
     background-color: black;
@@ -102,10 +102,10 @@ header nav
     width:100vw;
     height:auto;
 }
-header nav .icon img
+/* header nav .icon img
 {
 
-}
+} */
 header nav .ul ul
 {
     display:flex;
@@ -420,7 +420,7 @@ button {
 }
 
 @media only screen and (max-width: 380px) {
-   .fourth image {
+   .fourth.image {
      width: 400px;
     }
   }
